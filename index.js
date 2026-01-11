@@ -12,7 +12,7 @@ let btn = document.querySelector('button');
 
 let Base_URL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=banglore';
 
-let API_KEY = '1be2e36560ec3fd4cdadfad278eeac83';
+let API_KEY = '';
 
 btn.addEventListener('click', (evt) =>{
     checkWeather(cityinput.value);
